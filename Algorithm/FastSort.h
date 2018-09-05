@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface FastSort : NSObject
-
+-(void)quickSortWithArray:(NSArray *)arr;
 @end

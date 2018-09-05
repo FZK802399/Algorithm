@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "FastSort.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    FastSort * fast = [[FastSort alloc]init];
+    [fast quickSortWithArray:@[@1,@4,@2,@6,@0,@5]];
 }
 
 
